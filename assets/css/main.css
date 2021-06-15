@@ -11,9 +11,36 @@ nav{
     padding: 0 35px;
 }
 
+h1{
+    margin: 0;
+}
 
-nav a{
+#hero-home{
+    background-image: url("../images/mora.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ex-size{
+    height: 500px;
+    width: 500px;
+    background-color: darkmagenta;
+}
+
+#ex-size div{
+    width: 50%;
+    height: 50%;
+    background-color: darksalmon;
+}
+
+.opcion-nav{
     color: darkblue;
     font-size: 30px;
     text-decoration: none;
 }
+
