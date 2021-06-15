@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+}
+
+nav{
+    height: 100px;
+    background-color: coral;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 35px;
+}
+
+
+nav a{
+    color: darkblue;
+    font-size: 30px;
+    text-decoration: none;
+}
